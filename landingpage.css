@@ -1,0 +1,167 @@
+
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+#hero {
+  text-align: center;
+  padding: 100px 0;
+  background-image: url('hero1.jpg'); 
+  background-size: cover;
+  color: #fff;
+}
+
+#hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #222;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
+#about {
+  padding: 40px;
+  background-color: #fff;
+}
+
+#about h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+#menu {
+  padding: 40px;
+  background-color: #fff;
+}
+
+.menu-item {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.menu-item img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.menu-item h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.menu-item p {
+  font-size: 16px;
+  color: #777;
+}
+
+.menu-item span {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#contact {
+  padding: 40px;
+  background-color: #fff;
+}
+
+.contact-form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  background-color: #222;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #222;
+  color: #fff;
+}
+
+
+@media (max-width: 768px) {
+  header {
+      text-align: center;
+  }
+  
+  nav ul {
+      margin-top: 20px;
+      text-align: center;
+  }
+  
+  nav li {
+      display: block;
+      margin-bottom: 10px;
+  }
+}
